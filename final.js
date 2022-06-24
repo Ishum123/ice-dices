@@ -3,8 +3,8 @@
 var temp1= Math.floor(Math.random()*6)+1;
 var temp2= Math.floor(Math.random()*6)+1;
 
-var diceimage1="images/" +"dice" + temp1+ ".png"; 
-var diceimage2= "images/" +"dice" +temp2+".png";
+var diceimage1="dice" + temp1+ ".png"; 
+var diceimage2= "dice" +temp2+".png";
 
 document.querySelector(".img1").setAttribute("src", diceimage1);
 document.querySelector(".img2").setAttribute("src", diceimage2);
